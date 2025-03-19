@@ -87,7 +87,7 @@ def playlist_fun(url,resu,self,output_dir):
 
 def spotify_download(url, self,output_dir):
 
-    obj = Spotdl(client_id="e632346391244310b7612e45457ec44a",client_secret="108cdab9ee8848dd9d81f0d4c17b7fa3",no_cache=True)
+    obj = Spotdl(client_id="#",client_secret="#",no_cache=True)
     #self.ui.ding.show()
     print("test spotify-2")
     song_objs = obj.search([url])  # url
