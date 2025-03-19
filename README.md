@@ -12,6 +12,13 @@ This application allows users to download videos and audio from various platform
 - Download videos from Facebook
 - GUI developed using **PySide6**
 
+## 🛠️ Installation
+### 1️⃣ Install Python Dependencies
+Ensure you have **Python 3.9+** installed, then install required packages:
+```sh
+pip install -r requirements.txt
+```
+
 ### 2️⃣ Required External Libraries
 Make sure **UniConvertor** is installed for handling **cairosvg**:
 - Download and install UniConvertor from: [https://sk1project.net/uc2/](https://sk1project.net/uc2/)
